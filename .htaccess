@@ -1,0 +1,35 @@
+# 
+# PHP error handling for development servers
+# 
+# Place this .htaccess file into the folder where the php scripts are.  Also, create an empty file
+# called PHP_error.log in this same folder.  Change the permissions of the log file to world writable.  
+# You will find all your error messages in this file.  You should empty your log file periodically.
+#
+# When you are satisfied your scripts work properly, change the first three flags from on to off and
+# the value of error_reporting from -1 to 0.
+#
+#
+php_flag display_startup_errors on
+php_flag display_errors on
+php_flag html_errors on
+php_value error_reporting -1
+# if you don't want a permanent log file then comment out the following line.
+php_value error_log ./PHP_errors.log
+#
+php_flag log_errors on
+php_flag ignore_repeated_errors off
+php_flag ignore_repeated_source off
+php_flag report_memleaks on
+php_flag track_errors on
+php_value docref_root 0
+php_value docref_ext 0
+php_value log_errors_max_len 0
+
+RewriteEngine on
+ErrorDocument 404 /rtr-system/index.php
+
+<Files PHP_errors.log>
+ Order allow,deny
+ Deny from all
+ Satisfy All
+</Files>

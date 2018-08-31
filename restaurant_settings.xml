@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<restaurant>
+	<location>
+		<id> 1 </id>
+		<name> Main Hall </name>
+		<description> 1st floor common room </description>
+		<table>
+			<id> 1 </id>
+			<row> 1 </row>
+			<spot> 1 </spot>
+			<type> square </type>
+			<capacity> 2 </capacity>
+		</table>
+		<table>
+			<id> 2 </id>
+			<row> 1 </row>
+			<spot> 2 </spot>
+			<type> rectangle </type>
+			<capacity> 6 </capacity>
+		</table>
+		<table>
+			<id> 3 </id>
+			<row> 1 </row>
+			<spot> 3 </spot>
+			<type> rectangle </type>
+			<capacity> 6 </capacity>
+		</table>
+		<table>
+			<id> 4 </id>
+			<row> 1 </row>
+			<spot> 4 </spot>
+			<type> square </type>
+			<capacity> 4 </capacity>
+		</table>
+		<table>
+			<id> 5 </id>
+			<row> 2 </row>
+			<spot> 1 </spot>
+			<type> square </type>
+			<capacity> 2 </capacity>
+		</table>
+		<table>
+			<id> 6 </id>
+			<row> 2 </row>
+			<spot> 2 </spot>
+			<type> rectangle </type>
+			<capacity> 6 </capacity>
+		</table>
+		<table>
+			<id> 7 </id>
+			<row> 2 </row>
+			<spot> 3 </spot>
+			<type> rectangle </type>
+			<capacity> 6 </capacity>
+		</table>
+		<table>
+			<id> 8 </id>
+			<row> 2 </row>
+			<spot> 4 </spot>
+			<type> square </type>
+			<capacity> 4 </capacity>
+		</table>
+		
+		<table>
+			<id> 9 </id>
+			<row> 3 </row>
+			<spot> 1 </spot>
+			<type> square </type>
+			<capacity> 2 </capacity>
+		</table>
+		<table>
+			<id> 10 </id>
+			<row> 3 </row>
+			<spot> 2 </spot>
+			<type> rectangle </type>
+			<capacity> 6 </capacity>
+		</table>
+		<table>
+			<id> 11 </id>
+			<row> 3 </row>
+			<spot> 3 </spot>
+			<type> rectangle </type>
+			<capacity> 6 </capacity>
+		</table>
+		<table>
+			<id> 12 </id>
+			<row> 3 </row>
+			<spot> 4 </spot>
+			<type> square </type>
+			<capacity> 4 </capacity>
+		</table>
+	</location>
+	<location>
+		<id> 2 </id>
+		<name> Outside Deck </name>
+		<description> Deck with view on Bridge </description>
+		<table>
+			<id> 13 </id>
+			<row> 1 </row>
+			<spot> 1 </spot>
+			<type> square </type>
+			<capacity> 2 </capacity>
+		</table>
+		<table>
+			<id> 14 </id>
+			<row> 1 </row>
+			<spot> 2 </spot>
+			<type> square </type>
+			<capacity> 2 </capacity>
+		</table>
+		<table>
+			<id> 15 </id>
+			<row> 1 </row>
+			<spot> 3 </spot>
+			<type> square </type>
+			<capacity> 2 </capacity>
+		</table>
+		<table>
+			<id> 16 </id>
+			<row> 1 </row>
+			<spot> 4 </spot>
+			<type> square </type>
+			<capacity> 2 </capacity>
+		</table>
+		<table>
+			<id> 17 </id>
+			<row> 1 </row>
+			<spot> 5 </spot>
+			<type> square </type>
+			<capacity> 2 </capacity>
+		</table>
+		<table>
+			<id> 18 </id>
+			<row> 2 </row>
+			<spot> 1 </spot>
+			<type> square </type>
+			<capacity> 2 </capacity>
+		</table>
+		<table>
+			<id> 19 </id>
+			<row> 2 </row>
+			<spot> 2 </spot>
+			<type> square </type>
+			<capacity> 2 </capacity>
+		</table>
+		<table>
+			<id> 20 </id>
+			<row> 2 </row>
+			<spot> 3 </spot>
+			<type> square </type>
+			<capacity> 2 </capacity>
+		</table>
+		<table>
+			<id> 21 </id>
+			<row> 2 </row>
+			<spot> 4 </spot>
+			<type> square </type>
+			<capacity> 2 </capacity>
+		</table>
+		<table>
+			<id> 22 </id>
+			<row> 2 </row>
+			<spot> 5 </spot>
+			<type> square </type>
+			<capacity> 2 </capacity>
+		</table>
+	</location>
+	<location>
+		<id> 3 </id>
+		<name> Semi-Private Room 1st floor </name>
+		<description> 1st floor semi-private room at the end of main hall </description>
+		<table>
+			<id> 23 </id>
+			<row> 1 </row>
+			<spot> 1 </spot>
+			<type> rectangle </type>
+			<capacity> 6 </capacity>
+		</table>
+		<table>
+			<id> 24 </id>
+			<row> 1 </row>
+			<spot> 2 </spot>
+			<type> rectangle </type>
+			<capacity> 6 </capacity>
+		</table>
+	</location>
+	<location>
+		<id> 4 </id>
+		<name> 2nd floor private room 1 </name>
+		<description> 2nd floor room with view on the ocean </description>
+		<table>
+			<id> 25 </id>
+			<row> 1 </row>
+			<spot> 1 </spot>
+			<type> round </type>
+			<capacity> 12 </capacity>
+		</table>
+	</location>
+	<location>
+		<id> 5 </id>
+		<name> 2nd floor private room 2 </name>
+		<description> 2nd floor room with view on the bridge north </description>
+		<table>
+			<id> 26 </id>
+			<row> 1 </row>
+			<spot> 1 </spot>
+			<type> round </type>
+			<capacity> 8 </capacity>
+		</table>
+	</location>
+	<location>
+		<id> 6 </id>
+		<name> 2nd floor private room 3 </name>
+		<description> 2nd floor room with view on the bridge south </description>
+		<table>
+			<id> 27 </id>
+			<row> 1 </row>
+			<spot> 1 </spot>
+			<type> round </type>
+			<capacity> 8 </capacity>
+		</table>
+	</location>
+	<occasion>
+		<id> 1 </id>
+		<description> Corporate Event </description>
+	</occasion>
+	<occasion>
+		<id> 2 </id>
+		<description> Birthday </description>
+	</occasion>
+	<occasion>
+		<id> 3 </id>
+		<description> Aniversary </description>
+	</occasion>
+	<occasion>
+		<id> 4 </id>
+		<description> Baby Shower </description>
+	</occasion>
+	<occasion>
+		<id> 5 </id>
+		<description> New Year </description>
+	</occasion>
+	<occasion>
+		<id> 6 </id>
+		<description> Lunar New Year </description>
+	</occasion>
+	<occasion>
+		<id> 7 </id>
+		<description> Valentines Day </description>
+	</occasion>
+	<occasion>
+		<id> 8 </id>
+		<description> St.Patrick's Day </description>
+	</occasion>
+	<occasion>
+		<id> 9 </id>
+		<description> Canada Day </description>
+	</occasion>
+	<occasion>
+		<id> 10 </id>
+		<description> Helloween </description>
+	</occasion>
+	<occasion>
+		<id> 11 </id>
+		<description> Christmas </description>
+	</occasion>
+	<occasion>
+		<id> 12 </id>
+		<description> Other </description>
+	</occasion>
+	<parkingspace>
+		<id> 1 </id>
+		<lotnumber> 1 </lotnumber>
+		<vehiclesize> M </vehiclesize>
+	</parkingspace>
+	<parkingspace>
+		<id> 2 </id>
+		<lotnumber> 2 </lotnumber>
+		<vehiclesize> M </vehiclesize>
+	</parkingspace>
+	<parkingspace>
+		<id> 3 </id>
+		<lotnumber> 3 </lotnumber>
+		<vehiclesize> M </vehiclesize>
+	</parkingspace>
+	<parkingspace>
+		<id> 4 </id>
+		<lotnumber> 4 </lotnumber>
+		<vehiclesize> M </vehiclesize>
+	</parkingspace>
+	<parkingspace>
+		<id> 5 </id>
+		<lotnumber> 5 </lotnumber>
+		<vehiclesize> L </vehiclesize>
+	</parkingspace>
+	<parkingspace>
+		<id> 6 </id>
+		<lotnumber> 6 </lotnumber>
+		<vehiclesize> L </vehiclesize>
+	</parkingspace>
+	<parkingspace>
+		<id> 7 </id>
+		<lotnumber> 7 </lotnumber>
+		<vehiclesize> S </vehiclesize>
+	</parkingspace>
+	<parkingspace>
+		<id> 8 </id>
+		<lotnumber> 8 </lotnumber>
+		<vehiclesize> S </vehiclesize>
+	</parkingspace>
+	<parkingspace>
+		<id> 9 </id>
+		<lotnumber> 9 </lotnumber>
+		<vehiclesize> S </vehiclesize>
+	</parkingspace>
+	<parkingspace>
+		<id> 10 </id>
+		<lotnumber> 10 </lotnumber>
+		<vehiclesize> XL </vehiclesize>
+	</parkingspace>
+</restaurant>
